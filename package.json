@@ -1,0 +1,32 @@
+{
+  "name": "scraper-assignment",
+  "version": "1.0.0",
+  "description": "MongoDB that acts as a news scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnRodriguez1012/scraper-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnRodriguez1012/scraper-assignment/issues"
+  },
+  "homepage": "https://github.com/JohnRodriguez1012/scraper-assignment#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.10",
+    "npm": "^5.7.1",
+    "path": "^0.12.7",
+    "request": "^2.85.0",
+    "time-stamp": "^2.0.0"
+  }
+}

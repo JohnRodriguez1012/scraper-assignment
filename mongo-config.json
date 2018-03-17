@@ -1,0 +1,8 @@
+{
+    "development": {
+        "MONGODB_URI": "mongodb://localhost/news_scrape_db"
+    },
+    "test": {
+        "MONGODB_URI": "NOT_USED_IN_THIS_APPLICATION"
+    },
+}
